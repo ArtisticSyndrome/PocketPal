@@ -24,10 +24,23 @@ dependencies:
   uuid: ^4.5.1
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
 
-  flutter_lints: ^5.0.0
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: "assets/logo.jpg"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  macos:
+    generate: true
+    image_path: "assets/logo.jpg"
+  windows:
+    generate: true
+    image_path: "assets/logo.jpg"
+  image_path: "assets/logo.jpg"
 
 flutter:
   assets:
@@ -47,4 +60,3 @@ flutter:
     - family: Arcade
       fonts:
         - asset: fonts/ARCADECLASSIC.TTF
-    
